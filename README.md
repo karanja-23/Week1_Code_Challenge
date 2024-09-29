@@ -18,9 +18,6 @@
 
 ##### It gets inputs of basic salary and benefits, and calculates an individuals' Payee, NHIF deductions, NSSF deductions, Gross salary and Net Salary.
 
-# Live links
-
-
 
 ## Technologies used
 HTML
@@ -29,5 +26,7 @@ JavaScript
 Github
 
 #### License
+The content of this site is licensed under the MIT license
+Copyright (c) 2024.
 
 
