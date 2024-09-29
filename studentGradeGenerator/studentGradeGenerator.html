@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Student Grade Generator</title>
+    <!-- My Favicon -->
+    <link
+      rel="icon"
+      href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSD3ytIA6zKKo4N3qfvde_BYOlsQstSkNLewA&s"
+    />
+    <!--CSS styling-->
+    <link rel="stylesheet" href="./style.css">
+    <!--Linked external stylesheet fontawesome-->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+  <body>
+    <div id="myContainer">
+      <div id="notification"></div>
+      <div id="welcomeMessage">
+        <i class="fa fa-certificate" aria-hidden="true"></i>
+        <h1><span>C</span>alculate your<br /><span>G</span>rade with us :</h1>
+      </div>
+
+      <form>
+        <label for="name">Student Name</label><br />
+        <input id="name" type="text" placeholder="Hosea Karanja" /><br />
+
+        <label for="admissionNumber">Admission No.</label><br />
+        <input
+          id="admissiosnNumber"
+          placeholder="E156/2584"
+          type="text"
+        /><br />
+
+        <label for="score">Total score</label><br />
+        <input
+          id="score"
+          type="number"
+          max="100"
+          min="0"
+          placeholder="100"
+        /><br />
+
+        <button id="btn">Submit</button>
+      </form>
+    </div>
+
+    <div id="myMessage">
+      <h1 id="alert"></h1>
+      <h2 id="myName"></h2>
+      <h2 id="myGrade"></h2>
+      <i id="close_btn" class="fa fa-times" aria-hidden="true"></i>
+    </div>
+
+    <script src="./index.js"></script>
+  </body>
+</html>

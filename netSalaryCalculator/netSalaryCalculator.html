@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Net Salary Calculator</title>
+    <!--My favicon-->
+    <link
+      rel="icon"
+      href="https://cdn.icon-icons.com/icons2/923/PNG/96/calculator_icon-icons.com_72046.png"
+    />
+    <!--CSS stylesheet-->
+    <link rel="stylesheet" href="./style.css">
+  </head>
+  <body>
+    <div class="container">
+      <h1>Calculate Your net salary</h1>
+      <form>
+        <label for="name">Name:</label>
+        <input id="name" type="text" /><br />
+
+        <label for="basicSalary">Basic Monthly Salary:</label>
+        <input id="basicSalary" type="number" /><br />
+
+        <label for="benefits">Taxable Benefits:</label>
+        <input id="benefits" type="number" /><br />
+
+        <button id="btn">Submit</button>
+      </form>
+
+      <div class="response">
+        <div id="MyTitles">
+          <div class="title">
+            <h4>NAME</h4>
+          </div>
+          <div class="title">
+            <h4>GROSS SALARY</h4>
+          </div>
+          <div class="title">
+            <h4>TAX DEDUCTION</h4>
+          </div>
+          <div class="title">
+            <h4>NHIF DEDUCTION</h4>
+          </div>
+          <div class="title">
+            <h4>NSSF DEDUCTION</h4>
+          </div>
+          <div class="title">
+            <h4>TOTAL DEDUCTIONS</h4>
+          </div>
+          <div class="title">
+            <h4>NET SALARY</h4>
+          </div>
+        </div>
+        <div id="myResponse">
+          <div class="input">
+            <h4 id="input1">NAME</h4>
+          </div>
+          <div class="input">
+            <h4 id="input2">GROSS SALARY</h4>
+          </div>
+          <div class="input">
+            <h4 id="input3">TAX DEDUCTION</h4>
+          </div>
+          <div class="input">
+            <h4 id="input4">NHIF DEDUCTION</h4>
+          </div>
+          <div class="input">
+            <h4 id="input5">NSSF DEDUCTION</h4>
+          </div>
+          <div class="input">
+            <h4 id="input6">TOTAL DEDUCTIONS</h4>
+          </div>
+          <div class="input">
+            <h4 id="input7">NET SALARY</h4>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="./index.js"></script>
+  </body>
+</html>
